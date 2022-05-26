@@ -1,0 +1,65 @@
+body {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 150%;
+}
+
+.header{
+  background-color: #F1F3FF;
+}
+
+.footer i {
+  color: #0D28A6;
+  font-size: x-large;
+}
+
+.bg-darkblue{
+  background-color: #0D28A6;
+}
+
+.logo {
+  background-color: #0D28A6;
+  width: 100px;
+  height: 34px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.card-cari {
+  width: 1047px;
+  /* height: 106px; */
+  margin-top: -50px;
+  z-index: 2;
+}
+.button-cari {
+  width: 92px !important;
+  margin-top: 30px;
+  height: 36px;
+}
+.activeCari {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 34px;
+}
