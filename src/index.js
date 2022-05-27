@@ -7,6 +7,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './index.css';
 import Cars from './pages/cars'
+import Dashboard from './pages/admin/Dashboard';
 
 const container = document.getElementById('root');
 const root = createRoot(container);
@@ -18,6 +19,7 @@ root.render(
         <Routes>
           <Route path='/' element={<App />}></Route>
           <Route path='/cars' element={<Cars />}></Route>
+          <Route path="/dashboard" element={<Dashboard />} />
         </Routes>
       </BrowserRouter>
     </Provider>
